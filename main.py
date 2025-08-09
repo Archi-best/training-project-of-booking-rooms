@@ -1,6 +1,6 @@
 class Room:
     def __init__(self, number: int, price: int):
-        self.number = number # номер номер
+        self.number = number # номер
         self.price = price # цена за ночь
         self.is_booked = False # Занят ли номер
 
@@ -54,5 +54,6 @@ guest2 = Guest("Мария")
 
 hotel.booking(guest1, 101, 2)
 hotel.booking(guest2, 102, 6)
+
 
 hotel.cancel_booking(101)
